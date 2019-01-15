@@ -32,7 +32,7 @@ describe("Map",function(){
 
     it('displays the map imagename passed to it', ()=>{
         const testMap = mountedMap.find('img [src="images/testmap.png"]');
-        expect(testMap.length).toEqual(1);
+        expect(testMap.length).toBe(1);
     })
 
 });
