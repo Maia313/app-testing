@@ -26,7 +26,7 @@ describe("Map",function(){
 
     it('displays the none map when no params are given',()=>{
         let defaultMap = shallow(<Map />);
-        const defaultImage = defaultMap.find('img [src="images/none.png"]');
+        const defaultImage = defaultMap.find('img [src=""]');
         expect(defaultImage.length).toBe(1);
     });
 
