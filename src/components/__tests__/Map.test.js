@@ -26,12 +26,12 @@ describe("Map",function(){
 
     it('displays the none map when no params are given',()=>{
         let defaultMap = shallow(<Map />);
-        const defaultImage = defaultMap.find('img [src="images/none.png"]');
+        const defaultImage = defaultMap.find('img[src="images/none.png"]');
         expect(defaultImage.length).toBe(1);
     });
 
     it('displays the map imagename passed to it', ()=>{
-        const testMap = mountedMap.find('img [src="images/testmap.png"]');
+        const testMap = mountedMap.find('img[src="images/testmap.png"]');
         expect(testMap.length).toBe(1);
     })
 

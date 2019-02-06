@@ -1,11 +1,19 @@
 {
   "shops": [
     {
-      "location": "Portland",
-      "address": "123 Portland Dr."
+      "location": "Södermalm",
+      "address": "Götgatan 15"
     },
     {
-      "location": "Astoria",
+      "location": "Norrmalm",
+      "address": "123 Astoria Dr."
+    },
+    {
+      "location": "Östermalm",
+      "address": "123 Astoria Dr."
+    },
+    {
+      "location": "Gamla stan",
       "address": "123 Astoria Dr."
     }
   ]

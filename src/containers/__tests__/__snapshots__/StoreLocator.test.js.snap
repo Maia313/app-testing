@@ -6,7 +6,7 @@ exports[`StoreLocator renders correctly 1`] = `
     className="Header"
   >
     <img
-      alt="Wired Brain"
+      alt="Espresso House"
       src="images/wired-brain-coffee-logo.png"
     />
   </div>

@@ -5,7 +5,7 @@ class Map extends Component {
     render() {
         let imagePath;
         if(this.props.imagename){
-            imagePath = 'images/'+this.props.imagename;
+            imagePath = 'images/'+ this.props.imagename;
         } else {
             imagePath = 'images/none.png';
         }
