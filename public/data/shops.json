@@ -6,15 +6,15 @@
     },
     {
       "location": "Norrmalm",
-      "address": "123 Astoria Dr."
+      "address": "Fridhemsgatan 20"
     },
     {
       "location": "Östermalm",
-      "address": "123 Astoria Dr."
+      "address": "Karlaplan 13"
     },
     {
       "location": "Gamla stan",
-      "address": "123 Astoria Dr."
+      "address": "Västerlånggatan 57"
     }
   ]
 }
