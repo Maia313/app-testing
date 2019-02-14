@@ -3,7 +3,7 @@ import React from 'react';
 
 const Header = () => (
    <div className="Header">
-        <img src="images/wired-brain-coffee-logo.png" alt="Espresso House" />
+        <img src="images/coffee_shop.png" alt="Espresso House" />
     </div> 
 );
 
