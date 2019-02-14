@@ -24,9 +24,9 @@ describe("Map",function(){
         expect(img.length).toBe(1);
     });
 
-    it('displays the none map when no params are given',()=>{
+    it('displays the all map when no params are given',()=>{
         let defaultMap = shallow(<Map />);
-        const defaultImage = defaultMap.find('img[src="images/none.png"]');
+        const defaultImage = defaultMap.find('img[src="images/alla.png"]');
         expect(defaultImage.length).toBe(1);
     });
 

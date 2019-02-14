@@ -9,7 +9,7 @@ class StoreLocator extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            currentMap: 'none.png',
+            currentMap: 'alla.png',
             shops: []
         };
 
