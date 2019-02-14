@@ -16,7 +16,7 @@ exports[`StoreLocator renders correctly 1`] = `
   >
     <img
       alt={undefined}
-      src="images/none.png"
+      src="images/alla.png"
     />
   </div>
 </div>

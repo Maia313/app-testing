@@ -15,6 +15,10 @@
     {
       "location": "Gamla stan",
       "address": "Västerlånggatan 57"
+    },
+    {
+      "location": "Alla",
+      "address": "Alla"
     }
   ]
 }

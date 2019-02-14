@@ -7,7 +7,7 @@ describe("mapChooser", function(){
        expect(actual).toEqual(expected);
     });
     it("returns an default image when no input is given", function() {
-        let expected = "none.png";
+        let expected = "alla.png";
         let actual = mapChooser("");
         expect(actual).toEqual(expected);
     });
