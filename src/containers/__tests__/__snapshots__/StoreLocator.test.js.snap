@@ -7,7 +7,7 @@ exports[`StoreLocator renders correctly 1`] = `
   >
     <img
       alt="Espresso House"
-      src="images/wired-brain-coffee-logo.png"
+      src="images/coffee_shop.png"
     />
   </div>
   <div />
