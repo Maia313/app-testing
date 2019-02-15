@@ -13,7 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "cypress:open": "cypress open",
     "cypress:all": "cypress run"
@@ -21,5 +21,13 @@
   "devDependencies": {
     "axios": "^0.18.0",
     "cypress": "^3.1.5"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/*/*.js",
+      "!src/index.js",
+      "!src/registerServiceWorker.js",
+      "!src/setupTests.js"
+    ]
   }
 }
