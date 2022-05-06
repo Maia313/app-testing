@@ -2,7 +2,7 @@ import React from 'react';
 import {shallow} from 'enzyme';
 import Button from '../Button';
 
-describe("Button",function() {
+describe("Button", () => {
     let mountedButton;
 
     beforeEach(()=>{
@@ -58,7 +58,7 @@ describe("When location passed is undefined", ()=> {
         mountedButton = shallow(<Button {...props} />);
     });
 
-    it('displays the location', ()=> {
+    it('displays All Locations', ()=> {
         const locName = mountedButton.find('.location-button');
         expect(locName.text()).toEqual('All Locations');
     });
