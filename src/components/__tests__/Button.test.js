@@ -46,7 +46,7 @@ describe("When a location is passed to it", ()=> {
     });
 });
 
-describe("When a location is passed to it", ()=> {
+describe("When location passed is undefined", ()=> {
     let mountedButton;
     let props;
 
@@ -62,8 +62,5 @@ describe("When a location is passed to it", ()=> {
         const locName = mountedButton.find('.location-button');
         expect(locName.text()).toEqual('All Locations');
     });
-
-
-
 
 });
