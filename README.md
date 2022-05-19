@@ -1,9 +1,9 @@
 # App testing with jest
 
-* For local tests report:
+* Local tests report:
 
 `npm run test -- --coverage`
 
-* For tests report with cypress:
+* Tests report with cypress:
 
 `npm run cypress:open`
